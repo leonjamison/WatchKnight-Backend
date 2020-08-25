@@ -10,13 +10,13 @@ User.destroy_all
 Movie.destroy_all
 Favorite.destroy_all
 
-users = User.create(
-    [
-        {username: 'Beverly', year_of_birth: 1985, note: 'Look up costume design for Avengers film.'},
-        {username: 'Pamela', year_of_birth: 1970, note: 'Do more research on casting cost of Then Lion King!'}
+# users = User.create(
+#     [
+#         {username: 'Beverly', year_of_birth: 1985, note: 'Look up costume design for Avengers film.'},
+#         {username: 'Pamela', year_of_birth: 1970, note: 'Do more research on casting cost of Then Lion King!'}
         
-    ]
-)
+#     ]
+# )
 
 # movies = Movie.create(
 #     [
